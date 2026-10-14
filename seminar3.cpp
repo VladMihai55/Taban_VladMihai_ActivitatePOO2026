@@ -11,6 +11,7 @@ public:
 	bool dePost;
 	int nrIngrediente;
 	string* ingrediente;
+	/*const int id;*/
 	Prajitura()
 	{
 		this -> denumire = new char[strlen("Tiramisu") + 1];
